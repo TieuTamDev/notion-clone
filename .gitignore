@@ -1,0 +1,72 @@
+# ========================
+# Python / FastAPI backend
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Conda environment
+*.conda
+*.conda-env
+*.yaml
+
+# Alembic migrations cache
+backend/alembic/versions/*.pyc
+
+# ========================
+# Node.js / Frontend
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+*.out
+*.err
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!env.example   # Giữ file mẫu cho team
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+.docker/
+*.pid
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# System
+# ========================
+.DS_Store
+Thumbs.db
